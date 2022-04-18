@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Html</title>
+</head>
+<body>
+    <h1>Formularios para viejuners y sus movidas</h1>
+
+    <form action="" method="post">
+        <fieldset>
+        <legend>El club viejuner</legend>
+
+        <h3>Tú</h3>
+        <label for="name">Nombre:</label>
+        <input type="text" name="nombre" id="name" placeholder="Pon aquí tu nombre...">
+
+        <label for="lastname">Apellidos:</label>
+        <input type="text" name="apellidos" id="lastname" placeholder="Pon aquí tus apellidos...">
+
+        <p>
+        <label for="age">Edad:</label>
+        <input type="number" name="edad" id="age" tabindex="4">
+        </p>
+
+        <p>Sexo:
+        <input type="radio" name="sexo" id="sex" value="Mujer">
+        <label for="sex">Mujer</label>
+        <input type="radio" name="sexo" id="sex" value="Hombre">
+        <label for="sex">Hombre</label>
+        </p>
+
+        <p>Te sientes viejuner:
+        <input type="radio" name="viejuner" id="vie" value="SI">
+        <label for="vie">SI</label>
+        <input type="radio" name="viejuner" id="vie" value="NO">
+        <label for="vie">NO</label>
+        </p>
+
+        <p>
+        <p>Escribe algo sobre tí:</p>
+        <textarea name="descripcion" id="description" cols="50" rows="10">Si si escribe aquí...</textarea>
+        </p>
+
+        <h3>Tus circunstancias</h3>
+        <p>
+        <label for="phone">Teléfono:</label>
+        <input type="tel" name="telefono" id="phone">
+        </p>
+
+        <p>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" name="correo" id="email">
+        </p>
+
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+        <legend>Los ladronzuelos de bicicletas</legend>    
+        <br>
+
+        <label for="day">Día:</label>
+        <input type="date" name="dia" id="day">
+        <br><br>
+
+        <label for="hour">Hora:</label>
+        <input type="time" name="hora" id="hour">
+        <br><br>
+
+        <label for="color">Color de la bicicleta:</label>
+        <input type="color" name="color" id="color">
+        <br><br>
+
+        <label for="price">Precio:</label>
+        <input type="range" name="precio" id="price">
+        <br><br>
+
+        <label for="type">Tipo de bicicleta:</label>
+        <select name="Tipo">
+        <option selected value="0"> Elige una opción </option>
+        <optgroup label="Paseo"> 
+            <option value="Señorial">Señorial</option> 
+            <option value="Anti-plebeyos">Anti-plebeyos</option> 
+            <option value="PorEncimaDelHombro">Por encima del hombro</option> 
+        </optgroup> 
+        <optgroup label="Montaña"> 
+            <option value="Gamusinos">Gamusinos</option> 
+            <option value="HuelefloresPremium">Hueleflores premium</option> 
+            <option value="FangoLover">Fango lover</option> 
+        </optgroup> 
+        <optgroup label="Carreras"> 
+            <option value="Metroymedio">Metroymedio</option> 
+            <option value="FluorescenteEdition">3 de la tarde. Fluorescente edition</option> 
+            <option value="Grupitors">Grupitors</option> 
+        </optgroup> 
+        </select>
+
+        <p>Accesorios:</p>
+        <label><input type="checkbox" id="ruedines" value="ruedines">Ruedines</label><br>
+        <label><input type="checkbox" id="pegatinas" value="pegatinas">Pegatinas</label><br>
+        <label><input type="checkbox" id="cestita" value="cestita">Cestita</label><br>
+        <label><input type="checkbox" id="bomba" value="bomba">Bomba de aire</label><br>
+        <label><input type="checkbox" id="timbre" value="timbre">Timbre</label><br>
+        <label><input type="checkbox" id="foco" value="foco">Foco</label><br>
+
+        <p>¿Qué marca era?:</p>
+        <select name="marca" id="marca">
+            <option value="specialized">specialized</option>
+            <option value="trek">trek</option>
+            <option value="merida">merida</option>
+            <option value="scott">scott</option>
+            <option value="giant" selected>giant</option>
+        </select>
+
+        </fieldset>
+
+        <p>
+        <input type="reset" value="Reset">
+        </p>
+
+        <p>
+        <button type="submit" onClick="alert('¡Hola, señor!')">
+        Enviar formulario
+        </button>
+        </p>
+
+    </form>
+    
+</body>
+</html>

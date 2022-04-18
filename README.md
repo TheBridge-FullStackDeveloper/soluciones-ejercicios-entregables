@@ -11,5 +11,5 @@ __4. Responsive__ <br/>
 
 ## JS
 
-__1. Básicos con JavaScript__
-__2. Booleanos, operadores y lógica de programación__
+__1. Básicos con JavaScript__ <br/>
+__2. Booleanos, operadores y lógica de programación__ <br/>
