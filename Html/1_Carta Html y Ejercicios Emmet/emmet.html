@@ -3,7 +3,7 @@
 <h2></h2>
 <p></p>
 
-<!-- h1{texto}+p{texto} -->
+<!-- h1{soy un título}+p{soy un párrafo} -->
 <h1>soy un título</h1>
 <p>soy un párrafo</p>
 
@@ -44,12 +44,12 @@
     </tr>
 </table>
 
-<!-- table>(tr>td*3)*2 -->
+<!-- table>(tr>th*3)+tr>td*3 -->
 <table>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <th></th>
+        <th></th>
+        <th></th>
     </tr>
     <tr>
         <td></td>
@@ -67,11 +67,10 @@
     </tr>
 </table>
 
-<!-- form:post / label{texto} / input:text / input:submit-->
-<form action="" method="post">
-    <label for="">First name</label>
-    <input type="text" name="" id="">
-
-    <input type="submit" value="">
+<!-- form:get[action=/action_page.php]>label[for=fname]{First name:}+input[type=text id=fname name=fname]+input[type=submit value=Submit]-->
+<form action="/action_page.php" method="get">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname">
+    <input type="submit" value="Submit">
 </form>
 
