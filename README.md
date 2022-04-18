@@ -4,10 +4,10 @@ __Un mismo ejercicio puede tener diferentes soluciones, aquí se adjunta una pos
 
 ## HTML
 
-__1. Carta Html y ejercicios Emmet__
-__2. Tablas y contenido multimedia__
-__3. Formulario__
-__4. Responsive__
+__1. Carta Html y ejercicios Emmet__ <br/>
+__2. Tablas y contenido multimedia__ <br/>
+__3. Formulario__ <br/>
+__4. Responsive__ <br/>
 
 ## JS
 
