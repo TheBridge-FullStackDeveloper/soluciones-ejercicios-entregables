@@ -1,0 +1,59 @@
+.titulo {
+    margin-left: 1em;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.contenedor {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:.1em;
+}
+.cabecera {
+    background-color: blue;
+    padding: .8em;
+    margin: 0 .8em;
+}
+
+.contenido_resumen {
+    background-color: red;
+    padding: .8em;
+    margin: 0 .8em;
+}
+
+.contenido_principal {
+    background-color: green;
+    padding: .8em;
+    margin: 0 .8em;
+}
+
+.barra_lateral {
+    background-color: blueviolet;
+    padding: .8em;
+    margin: 0 .8em;
+}
+
+.piedepagina {
+    background-color: darkgray;
+    padding: .8em;
+    margin: 0 .8em .8em .8em;
+}
+
+/* Responsive */
+@media (min-width: 550px){
+    .agrupacion {
+        display: flex;
+        gap: .1em;
+        margin: 0 .8em;
+    }
+    .contenido_principal, .barra_lateral {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1100px){
+    .agrupacion {
+        margin: 0 4.5em;
+    }
+}
