@@ -1,6 +1,6 @@
 # Soluciones de ejercicios entregables Full Stack The Bridge Valencia
 
-__Un mismo ejercicio puede tener diferentes soluciones, aquí se adjunta una posible solución pero no la única__
+__Un mismo ejercicio puede tener diferentes soluciones, aquí se adjunta una posible solución pero no la única.__
 
 ## HTML
 
