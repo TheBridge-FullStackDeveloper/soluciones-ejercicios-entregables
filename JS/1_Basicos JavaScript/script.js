@@ -288,19 +288,21 @@ const Movil = {
 console.log("Ejercicio 47: ", Movil);
 
 // 48. Dado el objeto de nombre Portatil con la propiedad marca, modifica el valor de la propiedad marca por el valor “MSI”, consolea el resultado
+
 Portatil.marca = 'MSI';
 console.log("Ejercicio 48: ", Portatil);
 
 // 49. Dado el objeto de nombre Concierto añade el valor Guns N' Roses a la propiedad grupos, consolea el resultado
+
 Concierto.grupos.push("Guns N'Roses");
 console.log("Ejercicio 49: ", Concierto);
 
 // 50. Dado el objeto de nombre Concierto, crea la propiedad fecha, dale un valor y después modifica el valor de la propiedad por el valor new Date() (fecha de hoy), consolea el resultado
 
 Concierto.fecha = '12/02/2022';
-console.log("Ejercicio 50: ", Concierto);
+console.log("Ejercicio 50: ", Concierto.fecha);
 Concierto.fecha = new Date();
-console.log("Ejercicio 50: ", Concierto);
+console.log("Ejercicio 50: ", Concierto.fecha);
 
 // 51. Dado el objeto de nombre Grupo modifica el valor de la propiedad integrantes quitándole un integrante, consolea el número de integrantes actual (ojo! el número, no los nombres de los integrantes)
 
