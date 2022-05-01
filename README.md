@@ -2,7 +2,7 @@
 
 __Un mismo ejercicio puede tener diferentes soluciones, aquí se adjunta una posible solución pero no la única.__
 
-## HTML
+## HTML & CSS
 
 __1. Carta Html y ejercicios Emmet__ <br/>
 __2. Tablas y contenido multimedia__ <br/>
@@ -13,3 +13,7 @@ __4. Responsive__ <br/>
 
 __1. Básicos con JavaScript__ <br/>
 __2. Booleanos, operadores y lógica de programación__ <br/>
+__3. Ejercicios vacaciones JavaScript <br/>
+__4. Ejercicio DOM Bichomon <br/>
+__5. Ejercicio DOM Varita Mágica <br/>
+__6. Ejercicios Web Storage <br/>
