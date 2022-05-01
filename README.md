@@ -13,7 +13,7 @@ __4. Responsive__ <br/>
 
 __1. Básicos con JavaScript__ <br/>
 __2. Booleanos, operadores y lógica de programación__ <br/>
-__3. Ejercicios vacaciones JavaScript <br/>
-__4. Ejercicio DOM Bichomon <br/>
-__5. Ejercicio DOM Varita Mágica <br/>
-__6. Ejercicios Web Storage <br/>
+__3. Ejercicios vacaciones JavaScript__ <br/>
+__4. Ejercicio DOM Bichomon__ <br/>
+__5. Ejercicio DOM Varita Mágica__ <br/>
+__6. Ejercicios Web Storage__ <br/>
