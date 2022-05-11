@@ -17,3 +17,4 @@ __3. Ejercicios vacaciones JavaScript__ <br/>
 __4. Ejercicio DOM Bichomon__ <br/>
 __5. Ejercicio DOM Varita Mágica__ <br/>
 __6. Ejercicios Web Storage__ <br/>
+__8. Ejercicios Destructuring Spread and Rest__ <br/>
