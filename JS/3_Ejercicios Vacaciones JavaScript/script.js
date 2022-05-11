@@ -324,7 +324,7 @@ function getCiudadesOrdenada (str) {
     }
 }
 
-console.log(getCiudadesOrdenada("Malaga, Granada"));
+console.log(getCiudadesOrdenada("Hola,Jesus,Corazon,Zorro"));
 //* Un palíndromo es una palabra que se escribe igual del derecho que del revés por ejemplo orejero, rallar o somos.  Crea la función esPalindromo que recibirá una cadena de texto y deberá devolver si es un palíndromo o no.
 // Si la función no recibe una cadena de texto o está vacía 'no es un formato correcto'
 function esPalindromo (str) {
@@ -425,14 +425,14 @@ console.log (mayorCinco(arrNum2));
 //* Crea una aplicación que nos pida un número por prompt y con un método se lo pasamos por parámetro para que nos indique si es o no un número primo, debe devolver true si es primo sino false. 
 // Un número primo es aquel que solo puede dividirse entre 1 y sí mismo. Por ejemplo: 25 no es primo, ya que 25 es divisible entre 5, sin embargo, 17 si es primo.
 // const numPrompt = prompt("Introduce un numero");
-function esPrimo(num) {
-    for (let i = 2; i < num; i++) {
-      if (num % i == 0) {
-        return false;
-      }
-    }
-    return true;
-  }
+// function esPrimo(num) {
+//     for (let i = 2; i < num; i++) {
+//       if (num % i == 0) {
+//         return false;
+//       }
+//     }
+//     return true;
+//   }
 //   console.log(esPrimo(numPrompt));
 //* Crea una función checkPasswordcon una variable tipo String que contenga una contraseña cualquiera. Después se te pedirá que introduzcas la contraseña (usando prompt), con 3 intentos. Cuando aciertes ya no pedirá más la contraseña y mostrará un mensaje diciendo “Enhorabuena”(ej.un alert). Piensa bien en la condición de salida (3 intentos y si acierta sale, aunque le queden intentos).
 // function checkPassword() {
