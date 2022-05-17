@@ -35,7 +35,7 @@ const buscarUsuario = () => {
 
     axios(`https://api.github.com/users/${entrada}`)
             .then(datos=> {
-                pintarHtml2 (datos);
+                pintarHtml2 (datos.data);
             })
 
 }
