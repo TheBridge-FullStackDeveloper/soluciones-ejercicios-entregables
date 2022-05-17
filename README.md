@@ -26,7 +26,7 @@ __12. Ejercicio Buscador de Peliculas__ <br/>
 
 ## SQL & MYSQL
 
-__1. Ejercicios Consultas básicas SQL & MYSQL__ <br/>
+__1. Ejercicios Consultas Básicas SQL & MYSQL__ <br/>
 __2. Ejercicios Relaciones SQL & MYSQL__ <br/>
 
 ## NODEJS
