@@ -50,7 +50,7 @@ SELECT * FROM my_company_database.employees WHERE salary BETWEEN 14000 AND 50000
 ⦁ Seleccione el número total de empleados
 SELECT COUNT(id) FROM my_company_database.employees;
 
-⦁ Selecciona los títulos del año 2019 ( He cogido 2020 ya que no tengo ninguno de 2019 )
+⦁ Selecciona los títulos del año 2019
 SELECT * FROM my_company_database.employees WHERE title_date LIKE '2019%';
 
 ⦁ Seleccione solo el nombre de los empleados en mayúsculas
