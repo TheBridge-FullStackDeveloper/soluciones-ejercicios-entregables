@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas Html</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        .colorcete {
+            background-color: rgb(218, 214, 214);
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 600px;">
+
+        <tr class="colorcete">
+          <td colspan="3">Invoice #6734354644</td>
+          <td>20 January 2034</td>
+        </tr>
+
+        <tr>
+          <td colspan="2" rowspan="4" style="width: 50%;"><strong>Pay to:</strong> <br> Acme Billing Co. <br> 123 Main St. <br> Cityville, NA 12345</td>
+          <td colspan="2" rowspan="4" style="width: 50%;"><strong>Customer:</strong> <br> John Smith <br> 321 Willow Way <br> Southeast Northwestershire, MA 54321</td>
+        </tr>
+
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+
+        <tr class="colorcete">
+          <td style="width: 25%;">Name/Description</td>
+          <td style="width: 25%;">Qty.</td>
+          <td style="width: 25%;">@</td>
+          <td style="width: 25%;">Cost</td>
+        </tr>
+
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+
+        <tr>
+            <td>Staples(box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="colorcete">Subtotal</td>
+            <td>110.0</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="colorcete">Tax</td>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="colorcete">Grand Total</td>
+            <td>$118.80</td>
+        </tr>
+          
+    </table> 
+
+    <a href="./HtmlContenidoMultimedia.html" title="Gatitos">Visite nuestra sección de gatitos</a>
+
+</body>
+</html>
