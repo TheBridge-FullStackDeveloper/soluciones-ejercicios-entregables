@@ -6,10 +6,10 @@
 ## HTML & CSS
 
 __1. Carta Html y ejercicios Emmet__ <br/>
-<!--__2. Tablas y contenido multimedia__ <br/>
+__2. Tablas y contenido multimedia__ <br/>
 __3. Formulario__ <br/>
 __4. Responsive__ <br/>
-__5. Ejercicio banderas__ <br/>
+<!--__5. Ejercicio banderas__ <br/>
 
 ## JS
   
