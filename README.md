@@ -9,12 +9,12 @@ __1. Carta Html y ejercicios Emmet__ <br/>
 __2. Tablas y contenido multimedia__ <br/>
 __3. Formulario__ <br/>
 __4. Responsive__ <br/>
-<!--__5. Ejercicio banderas__ <br/>
+<!--__5. Ejercicio banderas__ <br/>  -->
 
 ## JS
   
 __1. Ejercicios Básicos con JavaScript__ <br/>
-__2. Ejercicios Booleanos, operadores y lógica de programación__ <br/>
+<!--__2. Ejercicios Booleanos, operadores y lógica de programación__ <br/>
 __3. Ejercicios Funciones JavaScript__ <br/>
 
  **Ejercicios Repaso Ramp Up** <br/> 
