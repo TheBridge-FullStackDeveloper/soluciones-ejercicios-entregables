@@ -15,8 +15,8 @@ __4. Responsive__ <br/>
   
 __1. Ejercicios Básicos con JavaScript__ <br/>
 __2. Ejercicios Booleanos, operadores y lógica de programación__ <br/>
-<!--__3. Ejercicios Funciones JavaScript__ <br/>
-
+__3. Ejercicios Funciones JavaScript__ <br/>
+<!--
  **Ejercicios Repaso Ramp Up** <br/> 
 
      **Ejercicios JS**<br/>
