@@ -19,11 +19,11 @@ __3. Ejercicios Funciones JavaScript__ <br/>
 
  **Ejercicios Repaso Ramp Up** <br/> 
 
- <!--    **Ejercicios JS**<br/>
+   <!-- **Ejercicios JS**<br/> -->
 __4. Ejercicio DOM Bichomon__ <br/>
 __5. Ejercicio DOM Varita Mágica__ <br/>
     **Ejercicios Bucles**<br/> 
-
+ <!-- 
 **6. Ejercicios Web Storage** <br/>
 
  **Ejercicios JS DOM REPASO**<br/> 
