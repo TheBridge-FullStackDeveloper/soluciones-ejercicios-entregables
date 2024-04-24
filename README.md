@@ -34,12 +34,13 @@ __8. Ejercicios Arrow Functions y Metodos de Arrays__ <br/>
 
 __11. Ejercicios Programación Orientada a Objetos (POO)__ <br/>
 __12. Ejercicio Buscador de Peliculas__ <br/>
-<!--
+
 ## SQL & MYSQL
 
 __1. Ejercicios Consultas Básicas SQL & MYSQL__ <br/>
 __2. Ejercicios Relaciones SQL & MYSQL__ <br/>
 
+<!--
 ## NODEJS
 
 __1. Ejercicios Introducción a NodeJS__ <br/>
