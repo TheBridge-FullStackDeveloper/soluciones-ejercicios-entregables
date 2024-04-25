@@ -40,10 +40,10 @@ __12. Ejercicio Buscador de Peliculas__ <br/>
 __1. Ejercicios Consultas Básicas SQL & MYSQL__ <br/>
 __2. Ejercicios Relaciones SQL & MYSQL__ <br/>
 
-<!--
 ## NODEJS
 
 __1. Ejercicios Introducción a NodeJS__ <br/>
+<!--
 __1. Ejercicios Introducción a Express__ <br/>
 __2. Ejercicios Express, MySQL y MVC__ <br/>
 
