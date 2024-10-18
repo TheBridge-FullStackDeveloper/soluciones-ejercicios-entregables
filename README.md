@@ -24,8 +24,8 @@ __4. Ejercicio DOM Bichomon__ <br/>
 __5. Ejercicio DOM Varita Mágica__ <br/>
  <!-- **Ejercicios Bucles**<br/>   -->
  
- <!--**6. Ejercicios Web Storage** <br/>
-
+**6. Ejercicios Web Storage** <br/>
+ <!--
 **Ejercicios JS DOM REPASO**<br/> 
  __7. Ejercicios Destructuring Spread and Rest__ <br/>
 __8. Ejercicios Arrow Functions y Metodos de Arrays__ <br/>
