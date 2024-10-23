@@ -28,8 +28,8 @@ __5. Ejercicio DOM Varita Mágica__ <br/>
  <!--
 **Ejercicios JS DOM REPASO**<br/> -->
  __7. Ejercicios Destructuring Spread and Rest__ <br/>
- <!--__8. Ejercicios Arrow Functions y Metodos de Arrays__ <br/>
- __9. Ejercicios Asincronia Axios__ <br/>
+__8. Ejercicios Arrow Functions y Metodos de Arrays__ <br/>
+ <!-- __9. Ejercicios Asincronia Axios__ <br/>
 __10. Ejercicios Async/Await__ <br/> 
 
 __11. Ejercicios Programación Orientada a Objetos (POO)__ <br/>
