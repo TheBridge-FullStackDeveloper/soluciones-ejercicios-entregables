@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.card-img-top {
+    display: flex;
+    justify-content: center;
+}
+
+.peliculas h1 {
+    text-align: center;
+    font-size: 30px;
+    color: royalblue;
+}
+
+.visible {
+    display: flex;
+}
+
+.invisible {
+    display: none;
+}
+
+.home {
+    flex-wrap: wrap;
+}
+
+.buscar {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buscar {
+    width: 30vw;
+    border-radius: 10px;
+}
+
+.btn-secondary {
+    margin: 10px;
+}
+
+#buscarForm {
+    margin: 10px;
+}
+
+.card {
+    margin: 10px;
+}
+
+#button {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    width: 80%;
+}

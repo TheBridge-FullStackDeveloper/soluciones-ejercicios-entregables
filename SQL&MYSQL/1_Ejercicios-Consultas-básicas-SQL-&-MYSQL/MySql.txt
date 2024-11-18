@@ -1,0 +1,68 @@
+------ Crear Base de Datos ------
+CREATE DATABASE my_company_database;
+
+------ Crear la Tabla ------
+CREATE TABLE my_company_database.employees(
+id INT AUTO_INCREMENT,
+first_name VARCHAR(50),
+last_name VARCHAR(50),
+birth_date  date,
+gender enum ('M','F'),
+PRIMARY KEY(id)
+);
+
+1.2.1 INSERTAR DATOS
+
+- Creamos las columnas de los neuvos campos que vamos a necesitar
+ALTER TABLE my_company_database.employees ADD salary INT;
+ALTER TABLE my_company_database.employees ADD title VARCHAR(40);
+ALTER TABLE my_company_database.employees ADD title_date date;
+
+- Insertamos datos cumpliendo las condiciones que nos piden
+INSERT INTO my_company_database.employees (birth_date, first_name, last_name, gender, salary, title, title_date) values 
+('1990-09-19', 'Sofia', 'Ariza', 'F', 45000, 'administrador', '2019-12-17'), 
+('1990-09-17', 'Sofia', 'Pinilla', 'F', 45000, 'vendedor', '1990-09-17'), 
+('1998-07-17', 'Ivan', 'Garcia', 'M', 49000, 'comprador', '1994-09-17'), 
+('2021-07-17', 'Bonsi', 'Lopez', 'M', 41000, 'vendedor', '1999-09-17'),
+('2021-08-17', 'Sofia', 'Lopez', 'F', 42000, 'administrador', '2020-09-17'),
+('2047-07-17', 'Alvaro', 'Martinez', 'M', 43000, 'comprador', '2020-09-17'),
+('2021-12-17', 'Carlos', 'Carrascosa', 'M', 27000, 'comprador', '2020-09-17'),
+('2037-07-17', 'Laura', 'Martinez', 'F', 29000, 'cliente', '2020-09-17'),
+('2021-12-17', 'Maria', 'Perez', 'F', 13000, 'cliente', '2020-09-17'),
+('2099-2-17', 'Sofia', 'Salvador', 'F', 44000, 'administrador', '2019-09-17');
+
+1.2.2 ACTUALIZAR DATOS
+
+⦁ Cambiar el nombre de un empleado. Para ello, genere una consulta que afecte solo a un determinado empleado en función de su nombre, apellido y fecha de nacimiento.
+UPDATE my_company_database.employees SET first_name = 'Paquito' WHERE (first_name = 'Carlos') AND (last_name = 'Carrascosa') AND (birth_date = '2021-12-17');
+
+1.2.3 OBTENER DATOS
+
+⦁ Seleccione todos los empleados con un salario superior a 20.000
+SELECT * FROM my_company_database.employees WHERE salary > 20000;
+
+⦁ Seleccione todos los empleados con un salario inferior a 10,000
+SELECT * FROM my_company_database.employees WHERE salary < 10000;
+
+⦁ Seleccione todos los empleados que tengan un salario entre 14,00 y 50.000
+SELECT * FROM my_company_database.employees WHERE salary BETWEEN 14000 AND 50000;
+
+⦁ Seleccione el número total de empleados
+SELECT COUNT(id) FROM my_company_database.employees;
+
+⦁ Selecciona los títulos del año 2019
+SELECT * FROM my_company_database.employees WHERE title_date LIKE '2019%';
+
+⦁ Seleccione solo el nombre de los empleados en mayúsculas
+SELECT UCASE(first_name) FROM my_company_database.employees;
+
+⦁ Seleccionar el nombre de los empleados sin que se repita ninguno
+SELECT DISTINCT first_name FROM my_company_database.employees;
+
+1.2.4 BORRAR DATOS
+
+⦁ Elimina el empleado con id = 5
+DELETE FROM my_company_database.employees WHERE id = 5;
+
+⦁ Eliminar a todos los empleados con un salario superior a 20.000
+DELETE FROM my_company_database.employees WHERE salary > 20000;
