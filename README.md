@@ -47,7 +47,7 @@ __1. Ejercicios Introducción a NodeJS__ <br/>
 __1. Ejercicios Introducción a Express__ <br/>
 __2. Ejercicios Express, MySQL y MVC__ <br/>
 
- <!--
+<!--
 ## NoSQL & MongoDB
 __1. Ejercicios consultas básicas con MongoDB Shell__ <br/>
 
